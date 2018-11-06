@@ -6,8 +6,8 @@
     <data>
         <import type="android.view.View"/>
         <variable
-                name="viewModel"
-                type="me.paixao.databinddingexample.ui.main.MainViewModel" />
+                name="state"
+                type="me.paixao.databinddingexample.ui.main.MainViewModel.State" />
     </data>
     <android.support.constraint.ConstraintLayout
             android:id="@+id/main"
@@ -32,7 +32,7 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@{viewModel.testString}"/>
+                    android:text="@{state.testString}"/>
 
         </LinearLayout>
 
