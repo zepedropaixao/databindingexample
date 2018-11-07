@@ -2,7 +2,6 @@ package me.paixao.databinddingexample.ui.main
 
 import android.databinding.BaseObservable
 import android.databinding.Bindable
-import me.paixao.databinddingexample.BR
 
 
 class MainViewModel : BaseViewModel() {

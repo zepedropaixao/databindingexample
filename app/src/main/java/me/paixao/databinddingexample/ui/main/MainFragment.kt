@@ -1,19 +1,12 @@
 package me.paixao.databinddingexample.ui.main
 
-
 import android.arch.lifecycle.ViewModelProviders
-import android.databinding.BaseObservable
-import android.databinding.Bindable
 import android.databinding.DataBindingUtil
 import android.os.*
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import kotlinx.android.synthetic.main.main_fragment.*
-import me.paixao.databinddingexample.BR
 import me.paixao.databinddingexample.R
 import me.paixao.databinddingexample.databinding.MainFragmentBinding
 
